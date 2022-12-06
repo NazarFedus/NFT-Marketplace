@@ -1,6 +1,7 @@
 const img = document.querySelector('.header__main-img');
 
 repeat();
+
 function repeat(){
      img.onclick = function() {
           $(document).ready(function() {
