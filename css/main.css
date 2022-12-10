@@ -374,10 +374,124 @@ body{
      line-height: 140%;
 }
 
+/* Creators */
+.creators{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center;
+     align-items: center; */
+     padding: 80px 150px;
+     gap: 60px;
+}
 
 
 
+.creators__info{
+     display: flex;
+     flex-direction: row;
+     column-gap: 100px;
+}
+.creators__title{
+     font-family: var(--text__worksans);
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 120%;
+}
+.creators__text{
+     font-family: var(--text__worksans);
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 160%;
+}
 
+.creators__btn{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px 50px;
+     margin-top: 11px;
+     margin-left: 140px;
+     gap: 12px;
+     border: 2px solid #A259FF;
+     border-radius: 20px;
+}
+.creators__btn-text{
+     font-family: var(--text__worksans);
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 140%;
+     display: inline-block;
+     white-space: nowrap;
+     margin: 15px 12px 15px 0px;
+}
+
+
+.creators__content{
+     display: flex;
+     flex-direction: column;
+     row-gap: 19px;
+     margin-top: 60px;
+}
+.creators__content__list{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     column-gap: 19px;
+}
+.creators__content-infobox{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     background: #3B3B3B;
+     border-radius: 20px;
+}
+
+
+.infobox-num{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 30px;
+     height: 30px;
+     background: #2B2B2B;
+     border-radius: 20px;
+     color: #858584;
+     margin-right: 160px;
+}
+.infobox-boxtext{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+}
+.infobox-title{
+     font-family: var(--text__worksans);
+     font-style: normal;
+     font-weight: 600;
+     font-size: 22px;
+     line-height: 140%;
+}
+
+.infobox-text{
+     font-family: var(--text__worksans);
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 140%;
+     margin-top: 5px;
+     margin: 0px 2px;
+     color: #858584;
+}
+.creators__span{
+     color: #FFFFFF;
+}
 
 
 
