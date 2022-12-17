@@ -7,12 +7,12 @@ const navbtnmobile = document.querySelector('.nav__btn');
 const menuiconwrapper = document.querySelector('.menu-icon-wrapper');
 
 navBtn.onclick = function(){
-     nav.classList.toggle('nav--mobile'); // додаєм клас nav--active до nav
-     menuIcon.classList.toggle('menu-icon--active'); // додаєм клас menu-icon--active до menu-icon
-     document.body.classList.toggle('no-scroll'); // додаєм клас no-scroll до body
-     navlist.classList.toggle('nav__list--active'); // додаєм клас nav__list--active до nav__list
-     navbtnmobile.classList.toggle('nav__btn--active'); // додаєм клас nav__btn--active до nav__btn
-     menuiconwrapper.classList.toggle('menu-icon-wrapper--active'); // додаєм клас menu-icon-wrapper--active до menu-icon-wrapper
+     nav.classList.toggle('nav--mobile');
+     menuIcon.classList.toggle('menu-icon--active');
+     document.body.classList.toggle('no-scroll');
+     navlist.classList.toggle('nav__list--active');
+     navbtnmobile.classList.toggle('nav__btn--active');
+     menuiconwrapper.classList.toggle('menu-icon-wrapper--active');
 }
 
 
@@ -40,5 +40,3 @@ function repeat(){
           }
      }
 }
-
-
